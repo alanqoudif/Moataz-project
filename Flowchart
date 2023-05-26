@@ -1,0 +1,27 @@
+
+
+
+Start
+|
+v
+Input DATA[1:N]
+|
+v
+i=1
+|
+v
+min_index = i
+|
+v
+j = i+1
+|
+v
+Is j <= N? ---NO---> Swap DATA[i] and DATA[min_index], i=i+1, Is i <= N? ---NO---> Stop, Print DATA[1:N]
+| YES
+v
+Is DATA[j] < DATA[min_index]? ---NO---> j=j+1
+| YES
+v
+min_index = j, j=j+1
+|
+^
